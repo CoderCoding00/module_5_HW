@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+
+      <!-- Timeblocks go here -->
+      <div class="row row-col-3 border">
+        <div class="col text-right border">9AM</div>
+        <textarea class="form-control col-10" type="text" id="text9" data-hour="9"></textarea>
+        <button class = "saveBtn" value="9">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">10AM</div>
+        <textarea class="form-control col-10" type="text" id="text10" data-hour="10"></textarea>
+        <button class = "saveBtn" value="10">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">11AM</div>
+        <textarea class="form-control col-10" type="text" id="text11" data-hour="11"></textarea>
+        <button class = "saveBtn" value="11">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">12PM</div>
+        <textarea class="form-control col-10" type="text" id="text12" data-hour="12"></textarea>
+        <button class = "saveBtn" value="12">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">1PM</div>
+        <textarea class="form-control col-10" type="text" id="text13" data-hour="1"></textarea>
+        <button class = "saveBtn" value="13">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">2PM</div>
+        <textarea class="form-control col-10" type="text" id="text14" data-hour="2"></textarea>
+        <button class = "saveBtn" value="14">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">3PM</div>
+        <textarea class="form-control col-10" type="text" id="text15" data-hour="3"></textarea>
+        <button class = "saveBtn" value="15">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">4PM</div>
+        <textarea class="form-control col-10" type="text" id="text16" data-hour="4"></textarea>
+        <button class = "saveBtn" value="16">Save</button>
+       </div>
+       <div class="row row-col-3 border">
+        <div class="col text-right border">5PM</div>
+        <textarea class="form-control col-10" type="text" id="text17" data-hour="5"></textarea>
+        <button class = "saveBtn" value="17">Save</button>
+       </div>
+
+    </div>
+
+    <!-- Given -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./assets/css/style.css"></link>
+    <!-- <link rel="stylesheet" href="./assets/css/jass.css"></link> -->
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
